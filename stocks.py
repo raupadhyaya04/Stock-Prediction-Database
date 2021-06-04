@@ -19,3 +19,15 @@ class AnalyzeStock:
   
   def _getNames(self):
     pass 
+
+
+# On Balance Volume calculator more functions coming
+# Need to arrange it into class format
+
+# def OnBalanceVolume(ticker):
+#   volumeYesterday, volumeToday = ticker.history('2d')['Volume'][0], ticker.history('2d')['Volume'][1]
+#   if volumeYesterday >= volumeToday:
+#     obv = volumeYesterday
+#   else:
+#     obv = volumeToday
+#   return obv 
